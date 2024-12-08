@@ -40,6 +40,20 @@ button {
   color: inherit;
 }
 
+.resetButton {
+  background-color: skyblue !important;
+  border: 1px solid darkblue !important;
+  text-align: center !important;
+
+}
+.resetButton:active {
+  background-color: darkblue!important;
+}
+.resetButton:hover{
+  background-color: darkblue!important;
+  color: white!important;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
